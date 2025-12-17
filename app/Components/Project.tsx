@@ -19,9 +19,9 @@ const Project = () => {
       tech: ['React', 'JSON Data', 'Tailwind']
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather forecasting application',
-      tech: ['React', 'API Integration', 'Tailwind']
+      title: 'Catalog with Search and Filter',
+      description: 'Real-time search and filter functionality for product catalog',
+      tech: ['React', 'JSON Data', 'Tailwind']
     }
   ];
 

@@ -15,10 +15,10 @@ const Contect = () => {
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
           <div className="flex justify-center gap-6">
-            <a href="https://github.com" className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition border border-gray-700">
+            <a href="https://github.com/siva-codez" className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition border border-gray-700">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition border border-gray-700">
+            <a href="https://www.linkedin.com/in/siva-developerz/" className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition border border-gray-700">
               <Linkedin size={24} />
             </a>
             <a href="mailto:sivaarumugap@gmail.com" className="bg-gray-800 p-4 rounded-full hover:bg-gray-700 transition border border-gray-700">

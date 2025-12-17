@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Firebase Email Authentication
+
+1. In the Firebase Console enable Authentication → Sign-in method → Email/Password.
+2. Copy `.env.local.example` to `.env.local` and fill in your Firebase project's values.
+3. Run locally:
+
+```bash
+npm run dev
+```
+
+4. Open `http://localhost:3000` and use the auth form to sign up / sign in.
+
+When deploying to Firebase Hosting, make sure the site is built (`npm run build`) and the `out` directory is deployed. Sensitive keys should only be stored in environment variables.

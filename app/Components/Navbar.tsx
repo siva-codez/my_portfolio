@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex p-3 font-bold px-5 ">
             <h1 className="font-extrabold text-xl font">Portfolio</h1>
         </div>
-        <div className=" flex p-3 font-medium  justify-between gap-10">
+        <div className=" flex p-3 font-medium  justify-between gap-10 md:gap-7">
             <a className="hover:text-pink-400 transition" href="#home">Home</a>
             <a className="hover:text-pink-400 transition" href="#about">About</a>
             <a className="hover:text-pink-400 transition" href="#skills">Skills</a>
